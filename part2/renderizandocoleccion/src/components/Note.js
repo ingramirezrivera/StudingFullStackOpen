@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Note = ({ note }) => {
-    console.log("note...", note);
     return <li>{note.content}</li>
 }
 
